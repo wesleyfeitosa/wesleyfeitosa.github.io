@@ -276,7 +276,7 @@
           \******************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! C:\Git\wesleyfeitosa.github.io\src\styles.css */ "./src/styles.css");
+            module.exports = __webpack_require__(/*! C:\Git\wesleyfeitosa.github.io-code\src\styles.css */ "./src/styles.css");
             /***/ 
         })
     }, [[3, "runtime"]]]);

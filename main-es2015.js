@@ -326,6 +326,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/esm2015/icon.js");
 /* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _app_routes__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.routes */ "./src/app/app.routes.ts");
+
 
 
 
@@ -346,6 +348,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
+            _app_routes__WEBPACK_IMPORTED_MODULE_10__["routing"],
             /* --------- Componentes do Angular Material --------- */
             _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_4__["MatToolbarModule"],
             _angular_material_menu__WEBPACK_IMPORTED_MODULE_5__["MatMenuModule"],
@@ -359,6 +362,26 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     })
 ], AppModule);
 
+
+
+/***/ }),
+
+/***/ "./src/app/app.routes.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.routes.ts ***!
+  \*******************************/
+/*! exports provided: routing */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routing", function() { return routing; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+const appRoutes = [];
+const routing = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(appRoutes);
 
 
 /***/ }),
@@ -428,7 +451,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Git\wesleyfeitosa.github.io\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Git\wesleyfeitosa.github.io-code\src\main.ts */"./src/main.ts");
 
 
 /***/ })
