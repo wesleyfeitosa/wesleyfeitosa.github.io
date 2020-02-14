@@ -1,6 +1,18 @@
 section{
   background-size: cover;
-  background-color: #000;
+  background-color: #003;
   height: 100vh;
-  color: #FFF
+  color: #FFF;
+  display: flex;
+}
+
+section .coluna {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+section .coluna .quem_eu_sou{
+  background-color: blue;
 }
