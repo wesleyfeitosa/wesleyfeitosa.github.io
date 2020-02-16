@@ -1,6 +1,6 @@
 section{
   background-size: cover;
-  background-color: #003;
+  background-color: #FFF;
   height: 100vh;
   color: #FFF;
   display: flex;
@@ -10,9 +10,22 @@ section .coluna {
   width: 50vw;
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 90px 90px;
 }
 
 section .coluna .quem_eu_sou{
-  background-color: blue;
+  color:#FFF;
+  padding: 20px;
+  background-color: #e74c3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .coluna .quem_eu_sou h2{
+  margin-bottom: 15px;
+}
+
+section .coluna .quem_eu_sou p {
+  font-size: 19px;
 }
