@@ -1,12 +1,16 @@
 <section #presentation>
-  <div class="nome">
+  <div class="sombra">
     <span>WESLEY FEITOSA</span>
     <span>SOFTWARE ENGINEER</span>
   </div>
+  <div class="nome">
+    <span id="nome_sobrenome">WESLEY FEITOSA</span>
+    <span id="cargo">SOFTWARE ENGINEER</span>
+  </div>
   <div class="links">
-    <!-- <a href="#">Blog</a> -->
-    <a [ngx-scroll-to]="'#about-me'">ABOUT</a>
-    <a [ngx-scroll-to]="'#portfolio'">PROJECTS</a>
-    <a [ngx-scroll-to]="'#contact'">CONTACT</a>
+    <hr />
+    <a [routerLink]="['/about']">ABOUT</a>
+    <a>PROJECTS</a>
+    <a>CONTACT</a>
   </div>
 </section>
