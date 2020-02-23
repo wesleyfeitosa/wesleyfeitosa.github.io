@@ -15,11 +15,12 @@ section .coluna {
 
 section .coluna .quem_eu_sou{
   color:#FFF;
-  padding: 20px;
-  background-color: #00ff7f;
+  padding: 28px;
+  background-color: #460075;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 25px;
 }
 
 section .coluna .quem_eu_sou h2{
@@ -27,5 +28,6 @@ section .coluna .quem_eu_sou h2{
 }
 
 section .coluna .quem_eu_sou p {
-  font-size: 18px;
+  font-size: 16px;
+  white-space: normal;
 }
