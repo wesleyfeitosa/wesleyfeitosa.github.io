@@ -1,16 +1,24 @@
 section{
   background-size: cover;
   background-color: #071731;
-  height: 100vh;
+  height: auto;
   color: #FFF;
   display: flex;
+}
+
+.material-icons.navigate_before{
+  font-size: 44px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #FFF;
 }
 
 section .coluna {
   width: 50vw;
   display: flex;
   justify-content: center;
-  margin: 90px 90px;
+  margin: 10vh 5vw;
 }
 
 section .coluna .quem_eu_sou{
@@ -28,6 +36,6 @@ section .coluna .quem_eu_sou h2{
 }
 
 section .coluna .quem_eu_sou p {
-  font-size: 15px;
-  white-space: normal;
+  font-size: 18.1px;
+  word-wrap: unset;
 }
