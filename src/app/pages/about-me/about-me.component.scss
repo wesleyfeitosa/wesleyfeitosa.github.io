@@ -1,11 +1,13 @@
 section{
   background-size: cover;
   background-color: #071731;
+  background: linear-gradient(100deg, #460075 50%, #071731 50%);
   height: auto;
   color: #FFF;
   display: flex;
 }
 
+// ícone de voltar a página
 .material-icons.navigate_before{
   font-size: 44px;
   position: absolute;
@@ -14,28 +16,48 @@ section{
   color: #FFF;
 }
 
+section img {
+  position: absolute;
+}
+
 section .coluna {
   width: 50vw;
   display: flex;
   justify-content: center;
-  margin: 15vh 5vw;
+  margin: 13.9vh 5vw;
 }
 
-section .coluna .quem_eu_sou{
+.coluna .quem_eu_sou{
   color:#FFF;
   padding: 28px;
-  background-color: #460075;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 25px;
+  font-size: 1.2em;
 }
 
-section .coluna .quem_eu_sou h2{
+.coluna .quem_eu_sou h2{
   margin-bottom: 15px;
 }
 
-section .coluna .quem_eu_sou p {
-  font-size: 20.1px;
-  word-wrap: unset;
+.coluna .habilidades {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  font-size: 1.2em;
+}
+
+.coluna .habilidades h2 {
+  margin-bottom: 15px;
+}
+
+.habilidades .categoria {
+  margin-bottom: 18px;
+}
+
+.categoria .tecs {
+  font-size: 0.8em;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
 }
