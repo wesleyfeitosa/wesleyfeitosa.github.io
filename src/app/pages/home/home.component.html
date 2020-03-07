@@ -3,7 +3,7 @@
     <span>WESLEY FEITOSA</span>
     <span>DESENVOLVEDOR DE SOFTWARE</span>
   </div>
-  <div class="nome" [@titulo]="estadoTitulo" (mouseover)="mudaEstadoTitulo()" (mouseout)="removeEstadoTitulo()">
+  <div class="nome" [@titulo]="isOver ? 'maior' : 'inicial'" (mouseover)="mudaEstadoTitulo()" (mouseout)="mudaEstadoTitulo()">
     <span id="nome_sobrenome">WESLEY FEITOSA</span>
     <span id="cargo">DESENVOLVEDOR DE SOFTWARE</span>
   </div>

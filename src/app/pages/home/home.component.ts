@@ -22,9 +22,7 @@ import { state, trigger, style, transition, animate } from '@angular/animations'
 })
 export class HomeComponent implements OnInit {
 
-  // Estados das animações
-  estadoTitulo: string = 'inicial';
-  estadoCategorias: string = 'inicial';
+  isOver: boolean = false;
 
   constructor() { }
 
@@ -32,11 +30,7 @@ export class HomeComponent implements OnInit {
   }
 
   mudaEstadoTitulo() {
-    this.estadoTitulo = 'maior';
-  }
-
-  removeEstadoTitulo() {
-    this.estadoTitulo = 'inicial';
+    this.isOver = !this.isOver;
   }
 
 }
