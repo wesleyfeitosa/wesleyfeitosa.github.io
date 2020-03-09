@@ -3,9 +3,9 @@ import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
-const appRoutes: Routes = [
-    { path: 'home', component: HomeComponent },
-    { path: 'about', component: AboutMeComponent },
+const APP_ROUTES: Routes = [
+    { path: 'home', component: HomeComponent, data: { animation: 'isLeft' } },
+    { path: 'about', component: AboutMeComponent, data: { animation: 'isRight' } },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent },
 ];
@@ -14,4 +14,4 @@ const appRoutes: Routes = [
 //{ path: 'oldPath', redirectTo: '/staticPath' },
 //{ path: ..., component: ..., data: { message: 'Custom' }
 
-export default appRoutes;
+export default APP_ROUTES;

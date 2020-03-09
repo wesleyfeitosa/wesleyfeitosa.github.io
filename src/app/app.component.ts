@@ -7,7 +7,7 @@ import { slideInAnimation } from './animations';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-    slideInAnimation
+    slideInAnimation,
     // animation triggers go here
   ]
 })

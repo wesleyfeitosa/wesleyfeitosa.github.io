@@ -8,7 +8,6 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    ScrollToModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
