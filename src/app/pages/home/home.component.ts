@@ -22,7 +22,7 @@ import { state, trigger, style, transition, animate } from '@angular/animations'
 })
 export class HomeComponent implements OnInit {
 
-  isOver: boolean = false;
+  isOver = false;
 
   constructor() { }
 
