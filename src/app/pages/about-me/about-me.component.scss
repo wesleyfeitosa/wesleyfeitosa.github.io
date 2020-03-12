@@ -9,7 +9,7 @@ section{
 
 // ícone de voltar a página
 .material-icons.navigate_before{
-  font-size: 44px;
+  font-size: 3em;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -60,4 +60,11 @@ section .coluna {
   display: flex;
   justify-content: flex-end;
   margin-top: 6px;
+}
+
+@media (max-width: 1000px) {
+  section .coluna {
+    width: 100%;
+    display: flex;
+  }
 }
