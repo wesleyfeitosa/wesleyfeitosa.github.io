@@ -16,11 +16,12 @@ section{
   color: #FFF;
 }
 
-section img {
-  position: absolute;
+section .colunas {
+  display: flex;
+  width: 98vw;
 }
 
-section .coluna {
+.colunas .coluna {
   width: 50vw;
   display: flex;
   justify-content: center;
@@ -63,8 +64,15 @@ section .coluna {
 }
 
 @media (max-width: 1000px) {
-  section .coluna {
-    width: 100%;
-    display: flex;
+  section {
+    background: linear-gradient(170deg, #460075 57%, #071731 43%);
+  }
+
+  section .colunas {
+    display: block;
+  }
+
+  .colunas .coluna {
+    width: 90vw;
   }
 }
