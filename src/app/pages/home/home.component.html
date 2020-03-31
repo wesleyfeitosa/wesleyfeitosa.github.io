@@ -3,14 +3,21 @@
     <span>WESLEY FEITOSA</span>
     <span>DESENVOLVEDOR DE SOFTWARE</span>
   </div>
-  <div class="nome" [@titulo]="isOver ? 'maior' : 'inicial'" (mouseover)="mudaEstadoTitulo()" (mouseout)="mudaEstadoTitulo()">
+
+  <picture>
+    <img src="../../../assets/foto_perfil.jpg" height="130" width="130">
+  </picture>
+
+  <div class="nome" [@titulo]="isOver ? 'maior' : 'inicial'" (mouseover)="mudaEstadoTitulo()"
+    (mouseout)="mudaEstadoTitulo()">
     <span id="nome_sobrenome">WESLEY FEITOSA</span>
     <span id="cargo">DESENVOLVEDOR DE SOFTWARE</span>
   </div>
+
   <div class="links">
     <hr />
     <a [routerLink]="['/about']">SOBRE MIM</a>
-    <a >PROJETOS</a>
-    <a >CONTATO</a>
+    <a>PROJETOS</a>
+    <a>CONTATO</a>
   </div>
 </section>
